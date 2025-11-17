@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "panzer.injection.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClientPlayerEntityMixin",
+    "GameRendererMixin",
+    "IngameHudMixin",
+    "KeyboardMixin",
+    "MinecraftClientMixin",
+    "SimpleOptionMixin",
+    "LivingEntityRendererMixin",
+    "EntityRendererMixin",
+    "ClientConnectionMixin",
+    "BlockMixin",
+    "RenderTickCounterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
